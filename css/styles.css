@@ -62,8 +62,8 @@ opacity: 1;
 }
 
 .navbar-brand {
-  font-weight: 700;
-  font-size: 26px;
+  font-weight: 500;
+  font-size: 20px;
   text-decoration: none;
   color: #000;
   transition: all .5s ease-in-out;
@@ -77,3 +77,4 @@ opacity: 1;
 .navbar-brand:hover {
   color: springreen;
 }
+
