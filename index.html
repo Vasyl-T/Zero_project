@@ -12,45 +12,58 @@
     <title>Tiffany Flower Shop</title>
     <link rel="icon" type="image/ico" href="favicon.ico">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;700&display=swap" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 <body>
+      <div class="referral-banner">
+        <p>
+          <strong>Графік роботи магазину: &nbsp&nbsp пн.-пт.</strong>
+            |09:00-18:00 &nbsp&nbsp&nbsp
+          <strong> сб.-нд.</strong>
+            |09:00-17:00
+          <div id="call-btn" class="visible-xs">
+            <a class="btn" href="tel:+38-066-151-1066">
+                <span class="glyphicon glyphicon-earphone"></span>
+                    Тел. +38 (066) 151 1066;&nbsp&nbsp
+            </a>
+            <a class="btn" href="tel:+38-067-114-2837">
+                <span class="glyphicon glyphicon-earphone"></span>
+                    +38 (067) 114-2837
+            </a>
+          </div>
+        </p>
+      </div>
   <header>
-    
-    <div class="referral-banner">
-      <p>
-      <strong>Графік роботи магазину: &nbsp&nbsp пн.-пт.</strong>
-      |09:00-18:00 &nbsp&nbsp&nbsp
-      <strong> сб.-нд.</strong>
-      |09:00-17:00
-      </p>
-    </div>
-
-  <nav class="navbar">
-    <div class="socialtop">
-      <div class="top-social">
-        <a href="https://www.facebook.com/Tiffany.flower.shop/"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/tiffany_flower.shop/?__coig_restricted=1"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-
-    <div class="container">
-      <a href="#" class="navbar-brand">Tiffany Flower Shop<br><img id="img-logo" src="images/Logo_Tiffany_2.jpg"></a>
-      <div class="navbar-wrap">
-      <ul class="navbar-menu">
-        <li><a href="#">Головна</a></li>
-        <li><a href="#">Квіти</a></li>
-        <li><a href="#">Декор</a></li>
-        <li><a href="#">Про нас</a></li>
-      </ul> 
-      <a href="#" class="callback">Ми доставляємо</a>
-      </div>
-    </div>
-  </nav>
+  <input type="checkbox" name="" id="chk1">
+  <div class="logo"><img src="images/Logo_Tiffany_2.jpg" alt="The Tiffany Flower Shop logo" width="60%"></div>
+  <!--
+  <div class="search-box">
+    <form action="">
+      <input type="text" name="search" id="srch" placeholder="Пошук">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  -->
+  <ul>
+    <li><a href="#">Головна сторінка</a>
+    <li><a href="#">Квіткові букети</a></li>
+    <li><a href="#">Декор</a></li>
+    <li><a href="#">Про нас</a></li>
+    <li><a href="#">Контакти</a></li>
+    <li>
+      <a href="https://www.facebook.com/Tiffany.flower.shop/"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/tiffany_flower.shop/?__coig_restricted=1"><i class="fab fa-instagram"></i></a>
+    </li>
+  </ul>
+<div class="menu">
+  <label for="chk1">
+    <i class="fa fa-bars"></i>
+  </label>
+</div>
 
   </header>
 
