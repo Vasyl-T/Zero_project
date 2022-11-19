@@ -42,8 +42,6 @@ b, strong {
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 header {
@@ -165,7 +163,8 @@ header .menu {
     max-width: 50%;
   }
 }
-  @media(min-width:601px and max-width:856px) {
+  @media(min-width:601px and max-width:856px) 
+  {
   header .logo {
     font-size: 10px;
     margin-left: 8px;
@@ -174,4 +173,44 @@ header .menu {
   header ul {
     width: 100%;
   }
+}
+
+.wrapper {
+  margin-top: 120px;
+}
+.block {
+
+}
+.block__row {
+  display: flex;
+  justify-content: space-between;
+
+
+
+  border: 2px solid #ED2CA2;
+  margin: 0px 0px 20px 0px;
+}
+.block__column {
+  border: 2px solid #4956BF;
+}
+.block__item_flower {
+  background-color: #E1FBFB;
+  padding: 50px;
+  font-size: 50px;
+  color: #7A7D82;
+  font-weight: 700;
+}
+.block__item_wedding{
+  background-color: #E1FBFB;
+  padding: 50px;
+  font-size: 50px;
+  color: #7A7D82;
+  font-weight: 700;
+}
+.block__item_christmas {
+  background-color: #E1FBFB;
+  padding: 50px;
+  font-size: 50px;
+  color: #7A7D82;
+  font-weight: 700;
 }
